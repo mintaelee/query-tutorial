@@ -1,0 +1,128 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    color: #fff;    
+    font-size: 2rem;
+    font-family: 'Bangers', cursive;
+}
+
+#box-1 {
+    background: #2a342a;
+}
+#box-2 {
+    background: #384537;
+}
+#box-3 {
+    background: #465645;
+}
+#box-4 {
+    background: #546853;
+}
+#box-5 {
+    background: #637961;
+}
+#box-6 {
+    background: #718a6e;
+}
+#box-7 {
+    background: #7f9b7c;
+}
+#box-8 {
+    background: #8cac8a;
+}
+#box-9 {
+    background: #9abd97;
+}
+#box-10 {
+    background: #a3c3a0;
+}
+#box-11 {
+    background: #0b2545;
+}
+#box-12 {
+    background: #0c284d;
+}
+#box-13 {
+    background: #0d2c54;
+}
+#box-14 {
+    background: #233f63;
+}
+#box-15 {
+    background: #395273;
+}
+#box-16 {
+    background: #4f6582;
+}
+#box-17 {
+    background: #657892;
+}
+#box-18 {
+    background: #7b8ba1;
+}
+#box-19 {
+    background: #919fb1;
+}
+#box-20 {
+    background: #a7b2c0;
+}
+
+
+/* When the screen is less than 400px, make one column of 20. */
+#header{
+    background: red;
+}
+#body_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 100%;
+}
+
+/* When the screen is beween 400px and 500px, make two columns of 10. */
+@media screen and (min-width: 400px) {
+    #header{
+        background: blue;
+    }
+    .box{
+        width: 50%;
+    }
+}
+
+/* When the screen is beween 500px and 700px, make four columns of 5. */
+@media screen and (min-width: 500px) {
+    #header{
+        background: green;
+    }
+    .box{
+        width: 25%;
+    }
+}
+
+/* When the screen is beween 700px and 900px, make ten columns of 2. */
+@media screen and (min-width: 700px) {
+    #header{
+        background: yellow;
+    }
+    
+    .box{
+        width: 10%;
+    }
+}
+
+/* When the screen is above 900px, make otwenty columns of 1. */
+@media screen and (min-width: 900px) {
+    #header{
+        background: pink;
+    }
+    
+    .box{
+        width: 5%;
+    }
+}
+
